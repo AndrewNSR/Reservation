@@ -1,0 +1,161 @@
+.Contactus {
+    background-color: white;
+    padding: 1rem 6rem;
+    padding-top: 8rem;
+    margin-bottom: 3rem;}
+    .head {
+      color: #5E5E5E;
+      font-size: 32px;
+      margin-bottom: 0rem;
+      margin-top: 1rem;
+    }
+    .imag {
+      padding-top: 1rem;
+      width: 100%;
+    }
+    .contact {
+      position: relative;
+      padding-top: 2rem;
+      border: 1px solid lightgrey;
+      display: block;
+      justify-content: center;
+      height: 26rem;
+      border-radius: 0.2rem;
+    }
+      .inputs {
+        border: 0rem;
+        border-bottom: 1px solid lightgrey;
+        margin-bottom: 1.5rem;
+        height: 3rem;
+        outline: none;
+        padding-left: 0px;
+      }
+
+      .invalid-feedback {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        font-size: 80%;
+        color: #dc3545;
+        left: 13%;
+      }
+    .row {
+      margin-left: 0rem;
+      margin-right: 0rem;
+    }
+    .d-flex {
+      justify-content: center;
+    }
+    .buttons {
+     
+      background: #59C09E;
+      margin-bottom: 1rem;
+      color: white;
+      height: 2.5rem;
+      border-radius: 0.2rem;
+      border: none;
+    }
+    .he {
+      margin-left: 0rem;
+      color:  #5E5E5E;
+    }
+    .icon {
+      position: relative;
+      font-size: 24px;
+      height: 21px;
+      display: flex;
+      justify-content: center;
+      margin-right: 1rem;
+      top: 0.4rem;
+      color: #59C09E;
+    }
+    .contaner {
+      margin-top: 3rem;
+      padding: 0rem 5rem;
+      color:  #5E5E5E;
+    }
+    .d-block {
+      padding-left: 0rem;
+      margin-right: 3rem;
+    }
+    .mar {
+      margin-left: 0.7rem;
+    }
+    .flex {
+      display: flex;
+    }
+  .image {
+    width: 350px;
+    height: 350px;
+  }
+  
+  /*responsive*/
+  @media only screen and (max-width: 767px) {
+    .Contactus {
+      padding: 6rem 0rem;
+      padding-bottom: 0rem;
+    }.contact {
+        margin-left: 0rem;
+        padding-top: 1rem;
+        height: auto;}
+        .inputs {
+          height: 1.5rem;
+        }
+        .input_textarea {
+          height: auto;
+        }
+      }
+      .he {
+        margin-left: 0rem;
+        margin-top: 1rem;
+      }
+      .flex {
+        display: block;
+      }
+      .container {
+        padding: 0rem 0rem;
+        justify-content: end;
+      }
+      
+    agm-map {
+      height: 250px;
+    }
+  
+  @media only screen and (min-width: 768px) and (max-width: 990px) {
+    .Contactus {
+      padding: 6rem 2rem;
+      padding-bottom: 0rem;}
+      .contact {
+        margin-left: 0rem;
+        height: auto;
+        padding-top: 1rem;
+      }
+        .inputs {
+          height: 1.5rem;
+        }
+        .input_textarea {
+          height: auto;
+        }
+      }
+      .he {
+        margin-left: 0rem;
+        margin-top: 1rem;
+      }  
+  @media only screen and (min-width: 990px) and (max-width: 1200px) {
+    .Contactus {
+      padding: 6rem 3rem;}
+      .contact {
+        margin-left: 4rem;
+        height: auto;
+        padding-top: 1rem;}
+  
+        .inputs {
+          height: 1.5rem;
+        }
+        .input_textarea {
+          height: auto;
+        }
+      }
+    agm-map {
+      height: 305px;
+    }

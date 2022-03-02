@@ -1,0 +1,290 @@
+.firstsection {
+    padding: 0rem 6rem;
+    background-image: url("../../assets/hh.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+}
+
+.par {
+    padding-top: 1rem;
+    color:  #FEFEFE;
+  }
+  .pas {
+    font-size: 14pt;
+  }
+  .slogan {
+    color:  #FEFEFE;
+  }
+  .find {
+    font-size: 43pt;
+  }
+  .perfect {
+    font-size: 43pt;
+  }
+  .font {
+    font-size: 12pt;
+  }
+  .rent {
+    color: #0a293b;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    background-color: rgba(#FEFEFE, 0.7);
+    border-radius: 1rem;
+    justify-content: center;
+    display: flex;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+
+  .search {
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0rem;
+    padding-left: 3.5rem;
+    padding-right: 0rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .active {
+    border-top: #59C09E  1.5px solid;
+    border-left:#59C09E 1.5px solid;
+    border-right: #59C09E 1.5px solid;
+  }
+  .location {
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    border: 1px solid #59C09E;
+    margin: 0rem 0rem;
+    padding-left: 1.5rem;
+    position: relative;
+    margin-top: 0rem;
+  }
+
+  .icon {
+    position: absolute;
+    top: 0.5rem;
+    z-index: 1;
+    font-size: 18px;
+    left: 1.4rem;}
+    i {
+      cursor: pointer;
+      color:#59C09E;
+    }
+
+    .button {
+        background-color: #FEFEFE;
+        color: #989ea1;
+        border: 1px solid #59C09E;
+        width: 100%;
+        text-align: left;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+      .bttn {
+        color: white;
+        background-color: #59C09E;
+        width: 9.375rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        border: 0px;
+      }
+  
+      .dropdown-menu {
+        width: 71%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 100px;
+      }
+
+      .dropdown-menu::-webkit-scrollbar {
+        width: 8px;
+      }
+    
+      .dropdown-menu::-webkit-scrollbar-track {
+        box-shadow: 0 0 5px grey;
+        background-color: ghostwhite;
+        border-radius: 10px;
+      }
+    
+      .dropdown-menu::-webkit-scrollbar-thumb {
+        background:#59C09E;
+        border-radius: 10px;
+      }
+    
+      .dropdown-menu::-webkit-scrollbar-thumb:hover {
+        background: #59C09E;
+      }
+
+      .button-price {
+        border-radius: 0.4rem;
+        height: 2.5rem;
+        width: 100%;
+        border: 1px solid #59C09E;
+        padding-left: 0.8rem;
+      }
+      .button-price::-webkit-inner-spin-button {
+          appearance: none;
+        }
+     
+      @media only screen and (max-width: 767px) {
+        .firstsection {
+          padding: 1rem 0rem;
+                        }
+          .pas {
+            font-size: 15pt;
+          }
+          .find {
+            font-size: 25pt;
+          }
+          .perfect {
+            font-size: 25pt;
+          }
+          .par {
+            padding-top: 0rem;
+            color: #FEFEFE;
+          }
+          .search {
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            border-top-left-radius: 0rem;
+            margin-left: 0rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            padding-top: 0px;
+            padding-bottom: 1.5rem;
+            border-top-right-radius: 0rem;
+            justify-content: center;
+          }
+          .rent {
+            color: #0a293b;
+            padding-left: 0.5rem;
+            padding-top: 1rem;
+            background-color: rgba(#FEFEFE, 0.7);
+            border-radius: 1rem;
+            justify-content: center;
+            display: flex;
+            border-bottom-left-radius: 0rem;
+            border-bottom-right-radius: 0rem;
+            margin-top: 1rem;
+            cursor: pointer;}
+            .font {
+              font-size: 15pt;
+              font-weight: 600;
+            }
+          }
+          .location {
+            border-radius: 0.5rem;
+            height: 2.5rem;
+            border: 1px solid #59C09E;
+            margin: 1rem 0rem;
+          }
+          .mar {
+            margin: 0rem 0rem;
+            margin-bottom: 1rem;
+          }
+          .bttn {
+            margin-bottom: 1rem;
+          }
+          .icon {
+            position: absolute;
+            top: 1.5rem;
+            z-index: 1;
+            font-size: 18px;
+          }
+          .font {
+            font-size: 20pt;
+            font-weight: 600;
+          }
+      @media (min-width: 768px) and (max-width: 990px) {
+        .firstsection {
+          padding: 0rem 3rem;}
+          .par {
+            padding-top: 0rem;
+            color:  #FEFEFE;
+          }
+          .rent {
+            padding-left: 1rem;
+            padding-top: 1rem;
+          }
+          .location {
+            border-radius: 0.3rem;
+            height: 2.5rem;
+            border: 1px solid #59C09E;
+            margin: 2rem;
+            margin-left: 0rem;
+          }
+          .search {
+            border-radius: 1rem;
+            box-shadow: 10px 10px 5px grey;
+            align-items: center;
+            border-top-left-radius: 0rem;
+            padding-left: 0rem;
+            justify-content: space-between;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-left: 0rem;}
+            .bttn {
+              color: white;
+              background-color: #59C09E;
+              width: 9.375rem;
+              height: 3rem;
+              border-radius: 0.5rem;
+              margin: 2rem 0rem;
+              margin-left: 0rem;
+            }
+          }
+          .form-group{
+            margin-top: 1rem;
+          }
+          .mar {
+            margin: 0rem;
+            margin-left: 0rem;
+          }
+          .icon {
+            position: absolute;
+            z-index: 1;
+            font-size: 18px;
+          }
+      @media only screen and (min-width: 990px) and (max-width: 1200px) {
+        .firstsection {
+          
+          padding: 0rem 2rem;
+          padding-bottom: 1rem;}
+          .bttn {
+            color: white;
+            background-color: #59C09E;
+            width: 11.375rem;
+            height: 3rem;
+            border-radius: 0.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            margin-left: 0rem;
+          }
+          .form-group{
+            margin-top: 1rem;
+          }
+          .search {
+            padding-left: 0rem;
+          }
+        }
+      
+      
+      @media (min-height: 0px) and (max-height: 600px)
+        {
+            .firstsection
+            {
+            height:50rem;
+            }
+      
+        
+        }

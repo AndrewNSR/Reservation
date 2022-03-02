@@ -1,0 +1,32 @@
+footer a{
+    color: black
+}
+footer a:hover{
+    color:white;
+}
+
+a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form{
+    width: 600px;
+    margin: auto;
+}
+@media(min-width: 50px){
+    form{
+        width: 100%;
+    }
+}
+@media(min-width: 768px){
+    form{
+        width: 1200px;
+    }
+}
+#one{
+    width: 100%;
+    background-color: mediumaquamarine;
+}
+a:hover{
+    text-decoration: none;
+}

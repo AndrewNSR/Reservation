@@ -1,0 +1,48 @@
+<app-head></app-head>
+<br><br>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <h3 style="text-align: center;">Login To Your Account</h3>
+          <h5 style="text-align: center;">Don't Have An Account?<a routerLink="/register">Sign Up!</a></h5>
+        </div>
+        <div class="form-group">
+          <input formControlName="email" placeholder="Enter Your Email" type="text" id="username"
+            class="form-control" required email>
+          <span
+          *ngIf="!loginForm.get('email').valid && loginForm.get('email').touched"
+          >This is <strong>required</strong>!</span>
+        </div>
+        <div class="form-group">
+          <input formControlName="password" placeholder="Enter Your Password" type="text" id="password"
+            class="form-control" maxlength="6" required>
+          <span 
+          *ngIf="!loginForm.get('password').valid && loginForm.get('password').touched"
+          >Please Enter the <strong>Correct</strong> Password!</span>
+        </div>
+        <div class="form-group"><a href="#">Forgot Your Password?!</a></div>
+        <div class="form-group">
+          <span 
+          *ngIf="!loginForm.valid && loginForm.touched"
+          ><strong>Wake-Up Sir!</strong></span>
+          <button id="one" class="btn btn-success"><strong><h3>Login</h3></strong></button>
+        </div>
+        <div>
+          <h1 style="text-align: center;">OR</h1>
+        </div>
+        <br>
+        <div style="display: flex; justify-content: center;">
+          <a href="https://www.facebook.com/login.php">
+            <img src="assets/fb.png" alt="fb link" width="50px" height="50px">
+          </a>
+          <a href="https://web.whatsapp.com/">
+            <img src="assets/wa.png" alt="whats app link" width="50px" height="50px" class="wa" >
+          </a>
+          <a href="https://mobile.twitter.com/login">
+            <img src="assets/tw.jpg" alt="twitter link" width="50px" height="50px">
+          </a>
+        </div>
+      </div>
+    </div>
+  </form>

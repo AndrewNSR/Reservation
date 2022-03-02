@@ -1,0 +1,38 @@
+a,p{
+    color: black;
+}
+ a:hover{
+    text-decoration: none;
+    color:cadetblue !important;
+}
+
+h4{
+    color: mediumaquamarine;
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+.row{
+    padding: 0 100px;
+}
+
+#one{
+    display: flex;
+    justify-content: space-around;
+    background-color: #19A2DB;
+}
+
+i{
+    color: white;
+    
+}
+li{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: white;
+}

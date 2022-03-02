@@ -1,0 +1,22 @@
+@media only screen and (max-width: 767px) {
+    .firstsection {
+      padding: 0rem 0rem;
+      
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 990px) {
+    .firstsection {
+      padding: 1rem 3rem;
+    }
+  }
+  @media only screen and (min-width: 990px) and (max-width: 1200px) {
+    .firstsection {
+      padding: 1rem 5rem;
+    }
+  }
+  img{
+      height: 24rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+  }

@@ -1,0 +1,29 @@
+<app-head></app-head>
+<br><br>
+<div class="container">
+  <div class="row">
+    <div id="accordion" class="myaccordion">
+      <div class="card" *ngFor="let item of arr; let i = index">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0 d-flex he">
+            <!-- <div class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse"
+              data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> -->
+              <h5 >
+                {{ item.question }}
+              </h5>
+            <button class="btn font" (click)="opt(i)">
+              <!-- <span class="fa-stack fa-sm"> -->
+              <i class="fas fa-plus " *ngIf="single != i"></i>
+              <i class="fas fa-minus " *ngIf="single == i"></i>
+              <!--  </span> -->
+            </button>
+            <!-- fa-stack-1x fa-inverse fa-stack-1x fa-inverse</div> -->
+          </h5>
+        </div>
+        <div id="collapse{{i}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion"
+          [ngClass]="{ show: i == 0 }">
+          <div class="card-body" [innerHTML]="item.answer">
+          </div>
+        </div>
+      </div>
+      <br>

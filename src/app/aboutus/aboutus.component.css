@@ -1,0 +1,31 @@
+.AboutUs {
+    background-color: white;
+    margin-top: 3rem;
+    padding: 1rem 6rem;
+    margin-bottom: 3rem;
+}
+    .head {
+      color: #5E5E5E;
+      font-size: 32px;
+      margin-bottom: 4rem;
+    }
+    .par {
+      color: #5E5E5E;
+      font-size: 20px;
+      word-spacing: 3px;
+      line-height: 60px;
+    }
+  @media only screen and (max-width: 767px) {
+    .AboutUs {
+      padding: 1rem 0rem;
+      margin: 1rem 0rem;}
+      .head {
+        margin-bottom: 1.5rem;
+      }
+      .par {
+        color: #0a293b;
+        font-size: 15px;
+        word-spacing: 3px;
+        line-height: 39px;
+      }
+    }
